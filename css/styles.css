@@ -52,6 +52,14 @@ li {
     color: #404BBF;
 }
 
+.header-link:focus {
+    color: #404bbf;
+}
+
+.address-main {
+    font-style: normal;
+}
+
 .address {
     color: var(--SLATE, #434455);
     font-family: Roboto;
@@ -66,7 +74,11 @@ li {
     color: #404BBF;
 }
 
-.section-bg {
+.address:focus {
+    color: #404bbf
+}
+
+.section-title {
     background: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -76,7 +88,7 @@ li {
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 1.12px;
 }
 
@@ -101,8 +113,6 @@ li {
     cursor: pointer;
 }
 
-
-
 .our-quality {
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
@@ -111,6 +121,8 @@ li {
     line-height: 24px;
     letter-spacing: 0.4px;
 }
+
+
 
 .our-quality-info {
     color: var(--SLATE, #434455);
@@ -121,15 +133,23 @@ li {
     letter-spacing: 0.32px;
 }
 
+.team-section {
+    background-color: #F4F4FD
+}
+
 .our-team {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     font-size: 36px;
     font-family: Roboto;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.1;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+}
+
+.team-info {
+    background-color: #FFFFFF;
 }
 
 .our-name {
@@ -150,19 +170,45 @@ li {
     letter-spacing: 0.32px;
 }
 
+
+
+
+
+
+
+
 .portfolio {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     font-size: 36px;
     font-family: Roboto;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
 
+.portfolio-projekt {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-projekt-work {
+    color: var(--SLATE, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 .portfolio-img {
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
 
 }
