@@ -1,5 +1,9 @@
 .body {
+    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+
 }
 
 a {
@@ -14,11 +18,11 @@ li {
 /*  */
 .logo {
     color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -36,7 +40,7 @@ li {
 
 
 .header-link {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: var(--NAVY-BLUE, #2e2f42);
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
@@ -44,13 +48,22 @@ li {
     letter-spacing: 0.32px;
 }
 
+.header-link :hover {
+    color: #404BBF;
+}
+
 .address {
     color: var(--SLATE, #434455);
     font-family: Roboto;
     font-size: 16px;
+    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
+}
+
+.address:hover {
+    color: #404BBF;
 }
 
 .section-bg {
@@ -60,6 +73,7 @@ li {
 .h1-col {
     color: var(--WHITE, #FFF);
     text-align: center;
+    font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
     line-height: 60px;
@@ -67,16 +81,32 @@ li {
 }
 
 .button {
-    background: #4D5AE5;
+    color: #FFFFFF;
+    background: var(--IRIS, #4D5AE5);
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
 }
 
+.button:hover {
+    background-color: var(--OCEAN, #404BBF);
+}
+
+.button:focus {
+    background-color: var(--OCEAN, #404BBF);
+}
+
+.button {
+    cursor: pointer;
+}
+
+
+
 .our-quality {
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
+    font-family: Roboto;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
@@ -85,6 +115,7 @@ li {
 .our-quality-info {
     color: var(--SLATE, #434455);
     font-size: 16px;
+    font-family: Roboto;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
@@ -94,6 +125,7 @@ li {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     font-size: 36px;
+    font-family: Roboto;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
@@ -103,6 +135,7 @@ li {
 .our-name {
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
+    font-family: Roboto;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
@@ -111,6 +144,7 @@ li {
 .our-position {
     color: var(--SLATE, #434455);
     font-size: 16px;
+    font-family: Roboto;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
@@ -120,6 +154,7 @@ li {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     font-size: 36px;
+    font-family: Roboto;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
@@ -129,14 +164,7 @@ li {
 .portfolio-img {
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
-    display: flex;
-    width: 360px;
-    height: 420px;
-    padding-bottom: 32px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
-    flex-shrink: 0;
+
 }
 
 .footer-bg {
