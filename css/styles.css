@@ -52,7 +52,7 @@ li {
     color: #404BBF;
 }
 
-.header-link:focus {
+.header-link :focus {
     color: #404bbf;
 }
 
