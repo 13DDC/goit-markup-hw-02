@@ -47,11 +47,11 @@ li {
     letter-spacing: 0.32px;
 }
 
-.header-link :hover {
+.heder-link-set :hover {
     color: #404BBF;
 }
 
-.header-link :focus {
+.heder-link-set :focus {
     color: #404bbf;
 }
 
